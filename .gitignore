@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Large data files — never commit these
+data/
+*.h5ad
+*.h5ad.gz
+*.loom
+*.h5
+*.mtx
+*.mtx.gz
+*.tsv.gz
+*.csv.gz
+*.tar.gz
+*.zip
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.env
+
+# Logs (optional — comment out if you want logs tracked)
+# logs/
